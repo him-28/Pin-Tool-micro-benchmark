@@ -177,9 +177,9 @@ VOID Instruction(INS ins, VOID *v)
    if(gen_pim_flag)
    {
      if(memOperands != 0)
-        gen_pim_comp_ref++;
-     else
         gen_pim_mem_ref++;
+     else
+        gen_pim_comp_ref++;
      return;
    }
 
